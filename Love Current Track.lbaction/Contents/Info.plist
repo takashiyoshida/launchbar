@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>iTunes.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.takashiyoshida.LaunchBar.action.LoveCurrentTrack</string>
+	<key>CFBundleName</key>
+	<string>Love Current Track</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>favorite like love</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.apple.iTunes</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Takashi Yoshida</string>
+		<key>LBEmail</key>
+		<string>takashi@takashiyoshida.org</string>
+		<key>LBSummary</key>
+		<string>Favorite current audio track in iTunes</string>
+		<key>LBTwitter</key>
+		<string>@takashiyoshida</string>
+		<key>LBWebsite</key>
+		<string>http://takashiyoshida.org</string>
+	</dict>
+	<key>LBMinimumLaunchBarVersion</key>
+	<integer>6</integer>
+	<key>LBRequiredApplication</key>
+	<string>com.apple.iTunes</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.10.4</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2015 Takashi Yoshida</string>
+</dict>
+</plist>
