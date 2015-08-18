@@ -5,7 +5,7 @@
 	<key>CFBundleIconFile</key>
 	<string>AppIcon.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.takashiyoshida.LaunchBar.action.NewAction</string>
+	<string>org.takashiyoshida.LaunchBar.action.MakeNewAction</string>
 	<key>CFBundleName</key>
 	<string>Make New Action</string>
 	<key>CFBundleVersion</key>
