@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>markdown-mark-icon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.takashiyoshida.MakeMarkdownLink</string>
+	<key>CFBundleName</key>
+	<string>Make Markdown Link</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>mml</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Takashi Yoshida</string>
+		<key>LBEmail</key>
+		<string>takashi@takashiyoshida.org</string>
+		<key>LBSummary</key>
+		<string>Make a Markdown link from current Safari window</string>
+		<key>LBTwitter</key>
+		<string>@takashiyoshida</string>
+		<key>LBWebsiteURL</key>
+		<string>http://takashiyoshida.org</string>
+	</dict>
+	<key>LBMinimumLaunchBarVersion</key>
+	<integer>6</integer>
+	<key>LBRequiredApplication</key>
+	<string>com.apple.Safari</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Make Markdown Link</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.12.6</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2017 Takashi Yoshida</string>
+</dict>
+</plist>
