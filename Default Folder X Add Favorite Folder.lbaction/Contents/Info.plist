@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>com.stclairsoft.DefaultFolderX5</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.takashiyoshida.LaunchBar.action.DefaultFolderXAddFavoriteFolder</string>
+	<key>CFBundleName</key>
+	<string>Default Folder X Add Favorite Folder</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Takashi Yoshida</string>
+		<key>LBEmail</key>
+		<string>takashi@takashiyoshida.org</string>
+		<key>LBTwitter</key>
+		<string>@takashiyoshida</string>
+		<key>LBWebsiteURL</key>
+		<string>https://takashiyoshida.org/</string>
+	</dict>
+	<key>LBMinimumLaunchBarVersion</key>
+	<integer>6</integer>
+	<key>LBRequiredApplication</key>
+	<string>com.stclairsoft.DefaultFolderX5</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>12</string>
+</dict>
+</plist>

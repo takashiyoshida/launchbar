@@ -11,7 +11,7 @@ Copies the POSIX path of a selected file or folder to your clipboard.
 3. Press `Tab` key and enter `posix` and select **Copy POSIX Path**
 4. Now paste the POSIX path in some application
 
-### DFXFavorites
+### Default Folder X Favorites
 
 Allows you to navigate around favorites from Default Folder X from LaunchBar
 
