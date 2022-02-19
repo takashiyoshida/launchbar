@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>font-awesome:fa-hacker-news</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.takashiyoshida.LaunchBar.action.HNNewest</string>
+	<key>CFBundleName</key>
+	<string>Hacker News Newest</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>hn newest</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.apple.Safari</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Takashi Yoshida</string>
+		<key>LBEmail</key>
+		<string>takashi@takashiyoshida.org</string>
+		<key>LBRequirements</key>
+		<string>Requires active Internet</string>
+		<key>LBResult</key>
+		<string>A list of Hacker News Posts</string>
+		<key>LBSummary</key>
+		<string>Read the Latest Hacker News</string>
+		<key>LBTwitter</key>
+		<string>@takashiyoshida</string>
+		<key>LBWebsiteURL</key>
+		<string>https://takashiyoshida.org</string>
+	</dict>
+	<key>LBMinimumLaunchBarVersion</key>
+	<integer>6</integer>
+	<key>LBRequirements</key>
+	<string>Requires active Internet</string>
+	<key>LBResult</key>
+	<string>A list of Hacker News Posts</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.rb</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.2.1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2022 Takashi Yoshida</string>
+</dict>
+</plist>
