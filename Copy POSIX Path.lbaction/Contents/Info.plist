@@ -3,17 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>Finder.icns</string>
+	<string>font-awesome:fa-folder-open</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.takashiyoshida.LaunchBar.action.CopyPOSIXPath</string>
 	<key>CFBundleName</key>
 	<string>Copy POSIX Path</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>LBAbbreviation</key>
 	<string>copy path</string>
-	<key>LBAssociatedApplication</key>
-	<string>com.apple.Finder</string>
 	<key>LBDebugLogEnabled</key>
 	<true/>
 	<key>LBDescription</key>
@@ -23,10 +21,10 @@
 		<key>LBEmail</key>
 		<string>takashi@takashiyoshida.org</string>
 		<key>LBSummary</key>
-		<string>Copy POSIX path of a selected item into the clipboard</string>
+		<string>Copy POSIX path of a selected item</string>
 		<key>LBTwitter</key>
 		<string>@takashiyoshida</string>
-		<key>LBWebsite</key>
+		<key>LBWebsiteURL</key>
 		<string>http://takashiyoshida.org</string>
 	</dict>
 	<key>LBMinimumLaunchBarVersion</key>
@@ -37,18 +35,22 @@
 		<dict>
 			<key>LBAcceptedArgumentTypes</key>
 			<array>
-				<string>string</string>
+				<string>path</string>
 			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
 			<key>LBRequiresArgument</key>
 			<true/>
 			<key>LBResultType</key>
 			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
 			<key>LBScriptName</key>
 			<string>default.scpt</string>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.10.4</string>
+	<string>13</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2015 Takashi Yoshida</string>
 </dict>
